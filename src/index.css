@@ -1,8 +1,21 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px;
+  font-weight: 300;
+  font-family: "Cinzel", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
-
+p {
+  font-weight: 300;
+  font-family: "Cinzel", serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
 a {
   text-decoration: none !important;
 }
@@ -18,4 +31,74 @@ form {
 
 .btn-round {
   margin: 20px;
+}
+.homepage-links {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.home-img-container {
+  gap: 30%;
+}
+.custom-img {
+  width: 60px;
+}
+.beerName {
+  font-family: 300;
+  font-size: 34px;
+  font-weight: 300;
+}
+.tagline {
+  margin: 0;
+  font-size: 32px;
+  color: grey;
+}
+.contribute {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.beerlist {
+  border-bottom: black solid 2px;
+  border-radius: 5px;
+  gap: 120px;
+}
+
+.beerdetail {
+  border-bottom: black solid 2px;
+  border-radius: 5px;
+  gap: 120px;
+}
+.nameDetail {
+  font-size: 42px;
+}
+.taglineDetail {
+  color: grey;
+  font-size: 30px;
+}
+.levelDetail {
+  color: rgba(128, 128, 128, 0.627);
+  font-size: 32px;
+}
+.brewDetail {
+  font-weight: 600;
+}
+.descDetail {
+  font-size: 24px;
+  font-weight: 500;
+}
+.contributedDetail {
+  font-weight: 800;
+  color: grey;
+}
+.beerimg {
+  width: 80px;
+}
+label {
+  font-weight: 600;
+}
+.form {
+}
+.App {
+  padding: 55px;
+}
+.bi-arrow-right {
 }
